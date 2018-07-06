@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddPatient</class>
+ <widget class="QDialog" name="AddPatient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>359</width>
+    <height>361</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_4"/>
+   </item>
+   <item row="6" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_6"/>
+   </item>
+   <item row="8" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_7"/>
+   </item>
+   <item row="10" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_9"/>
+   </item>
+   <item row="12" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_8"/>
+   </item>
+   <item row="0" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </item>
+   <item row="4" column="0" rowspan="2" colspan="5">
+    <layout class="QVBoxLayout" name="verticalLayout_5"/>
+   </item>
+   <item row="14" column="1" rowspan="2" colspan="4">
+    <layout class="QVBoxLayout" name="verticalLayout_10">
+     <item>
+      <widget class="QLabel" name="medicalFree">
+       <property name="text">
+        <string>医药费</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLabel" name="Pname">
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1" colspan="2">
+    <widget class="QLabel" name="Ptime">
+     <property name="text">
+      <string>时间</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="2">
+    <widget class="QLabel" name="disease">
+     <property name="text">
+      <string>病种</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="4">
+    <widget class="QLineEdit" name="P_Mdoctor"/>
+   </item>
+   <item row="13" column="1" colspan="3">
+    <widget class="QLabel" name="free">
+     <property name="text">
+      <string>诊费</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QLabel" name="gender">
+     <property name="text">
+      <string>性别</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="4">
+    <widget class="QLineEdit" name="P_free"/>
+   </item>
+   <item row="3" column="3" colspan="2">
+    <widget class="QLineEdit" name="P_gender"/>
+   </item>
+   <item row="5" column="1" colspan="2">
+    <widget class="QLabel" name="age">
+     <property name="text">
+      <string>年龄</string>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="4">
+    <widget class="QLineEdit" name="P_madicalFree"/>
+   </item>
+   <item row="1" column="3" colspan="2">
+    <widget class="QLineEdit" name="P_name"/>
+   </item>
+   <item row="9" column="3" colspan="2">
+    <widget class="QLineEdit" name="P_disease"/>
+   </item>
+   <item row="11" column="1" colspan="3">
+    <widget class="QLabel" name="Mdoctor">
+     <property name="text">
+      <string>主治医生</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3" colspan="2">
+    <widget class="QLineEdit" name="P_time"/>
+   </item>
+   <item row="5" column="3" colspan="2">
+    <widget class="QLineEdit" name="P_age"/>
+   </item>
+   <item row="16" column="1">
+    <widget class="QDialogButtonBox" name="Pbutton">
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <zorder>layoutWidget_2</zorder>
+  <zorder>DescText</zorder>
+  <zorder>Pname</zorder>
+  <zorder>gender</zorder>
+  <zorder>age</zorder>
+  <zorder>Ptime</zorder>
+  <zorder>disease</zorder>
+  <zorder>Mdoctor</zorder>
+  <zorder>free</zorder>
+  <zorder>P_name</zorder>
+  <zorder>P_gender</zorder>
+  <zorder>P_age</zorder>
+  <zorder>P_time</zorder>
+  <zorder>P_disease</zorder>
+  <zorder>P_Mdoctor</zorder>
+  <zorder>P_free</zorder>
+  <zorder>P_madicalFree</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>verticalLayoutWidget_2</zorder>
+  <zorder>verticalLayoutWidget_3</zorder>
+  <zorder>verticalLayoutWidget_4</zorder>
+  <zorder>verticalLayoutWidget_5</zorder>
+  <zorder>verticalLayoutWidget_6</zorder>
+  <zorder>verticalLayoutWidget_7</zorder>
+  <zorder>verticalLayoutWidget_8</zorder>
+  <zorder>horizontalLayoutWidget</zorder>
+  <zorder>Pbutton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
